@@ -54,7 +54,7 @@ Hacelas en orden. Después de cada una, mirá cómo cambia **todo el color de la
 
 Una contraseña de 4 letras minúsculas tiene `26 × 26 × 26 × 26 = 456.976` combinaciones. Una compu las prueba en un instante.
 
-Con 8 letras son `26⁸`, más de **200.000 millones**. Con 12 letras ya son **95 billones** (sí, billones). Y si sumás mayúsculas, números y símbolos, la cuenta se dispara.
+Con 8 letras son `26⁸`, más de **200.000 millones**. Con 12 letras ya son más de **95.000 billones**. Y si sumás mayúsculas, números y símbolos, la cuenta se dispara.
 
 Pero ojo: una contraseña con muchas combinaciones **puede ser débil igual** si es una palabra conocida. Los atacantes no empiezan por la fuerza bruta: empiezan por un **diccionario** de las contraseñas más usadas del mundo, con sus disfraces típicos (`Pikachu`, `p1kachu`, `pikachu123`). Si la tuya está ahí, la descubren en segundos aunque parezca complicada.
 
