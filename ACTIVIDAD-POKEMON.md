@@ -14,21 +14,19 @@ Qué tiene de especial:
 
 Los datos no están en nuestra página: los pide a **PokéAPI**, una base de datos gratis con más de mil Pokémon. A eso se le llama **API**: una puerta para que un programa pida datos a otro.
 
-**No tenés que escribir nada.** Alcanza con copiar, pegar y probar.
+**No tenés que escribir ni copiar nada.** La página ya está hecha: alcanza con mergear este Pull Request y probarla.
 
 Tiempo: 10 minutos para que ande, y el resto para jugar.
 
 ## Paso a paso
 
-1. En tu carpeta del proyecto creá una carpeta nueva que se llame `pokemon`.
-2. Adentro creá un archivo que se llame `index.html`.
-3. Copiá **todo** el código de más abajo (el bloque entero, de `<!DOCTYPE html>` a `</html>`) y pegalo en ese archivo.
-4. Guardá el archivo.
-5. Abrilo con doble clic. Se abre en el navegador y tiene que aparecer **Pikachu**.
+1. Entrá al Pull Request de la Pokédex en GitHub y apretá el botón verde **Merge pull request**, y después **Confirm merge**.
+2. Bajá los cambios a tu compu: en la terminal, dentro de la carpeta del proyecto, escribí `git pull`.
+3. Abrí la carpeta `pokemon` y hacé doble clic en `index.html`. Se abre en el navegador y tiene que aparecer **Pikachu**.
 
-Si no querés copiar, el mismo archivo ya está hecho en `pokemon/index.html`. Abrilo directamente.
+Listo. Necesitás internet: los datos, las imágenes y la tipografía vienen de afuera.
 
-Necesitás internet: los datos, las imágenes y la tipografía vienen de afuera.
+Si no podés mergear o usar `git pull`, también sirve copiar el código de la sección **El código completo** (de `<!DOCTYPE html>` a `</html>`), pegarlo en un archivo que se llame `index.html` y abrirlo con doble clic.
 
 ## Probá esto
 
@@ -44,7 +42,7 @@ Necesitás internet: los datos, las imágenes y la tipografía vienen de afuera.
 - Buscá un Pokémon **Legendario**: aparece una etiqueta blanca al lado del tipo.
 - Mirá la dirección de la página: termina en `#25` o el número que estés viendo. Copiala y mandásela a alguien: va a ver el mismo Pokémon.
 
-## El código completo
+## El código completo (para leer, no hace falta copiarlo)
 
 ```html
 <!DOCTYPE html>
@@ -890,8 +888,8 @@ Probá esto: abrí en otra pestaña https://pokeapi.co/api/v2/pokemon/25 . Eso e
 ## Si algo sale mal
 
 - **Aparece una rueda girando para siempre:** revisá que tengas internet. Probá de nuevo con **F5**.
-- **La página se ve sin colores o con texto raro:** faltó copiar una parte. Volvé a copiar el bloque **entero**, de `<!DOCTYPE html>` a `</html>`.
-- **Se ve el código en el navegador en vez de la página:** el archivo se guardó con otro nombre. Tiene que llamarse `index.html`, no `index.html.txt`.
+- **La página se ve sin colores o con texto raro:** si copiaste el código a mano, faltó una parte. Volvé a copiarlo **entero**, de `<!DOCTYPE html>` a `</html>`, o usá el archivo `pokemon/index.html` del proyecto.
+- **Se ve el código en el navegador en vez de la página:** si lo copiaste a mano, el archivo se guardó con otro nombre. Tiene que llamarse `index.html`, no `index.html.txt`.
 - **Dice "No encontré ningún Pokémon":** probá un número del 1 al 1025, o un nombre **en inglés** (`pikachu`, no `pikachú`).
 - **El Grito no suena:** revisá el volumen y que la pestaña no esté silenciada.
 - **Para ver el error real:** apretá **F12** y mirá la pestaña **Consola**. Si hay algo en rojo, pegáselo a ChatGPT o Gemini y pedile *"explicame este error para alguien que recién empieza"*.
