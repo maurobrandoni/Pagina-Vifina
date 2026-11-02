@@ -169,9 +169,7 @@ const preguntas = [
     ],
     explicacion: 'HTML (HyperText Markup Language).',
   },
-    ],
-    explicacion: 'HTML es el esqueleto. CSS es la ropa (el estilo) y JavaScript es el cerebro (la lógica).',
-  },
+  {
     categoria: 'html',
     texto: '¿Qué etiqueta crea un botón?',
     opciones: ['`<button>`', '`<boton>`', '`<click>`', '`<press>`'],
