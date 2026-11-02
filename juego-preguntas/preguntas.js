@@ -27,9 +27,7 @@ const preguntas = [
       'rebase crea un commit de fusión y merge produce un historial lineal.',
       'Dan el mismo historial; rebase solo funciona con ramas remotas y merge solo con locales.',
     ],
-    explicacion: 'merge une dos ramas con un commit de fusión y conserva el historial tal como ocurrió (ramificado).
-
-rebase reaplica tus commits sobre la rama destino, dejando un historial lineal, pero reescribe los commits (nuevos hashes), por eso no se usa en ramas públicas.',
+    explicacion: 'merge une dos ramas con un commit de fusión y conserva el historial tal como ocurrió (ramificado).',
   },
   {
     categoria: 'git',
