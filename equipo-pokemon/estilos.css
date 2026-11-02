@@ -260,7 +260,7 @@ input:disabled {
 .boton.principal {
   border-color: #ffffff;
   background: #851010;
-  color: #0b0c12;
+  color: lab(51.44% 67.2 59.22);
 }
 
 .boton.principal:hover:not(:disabled) {
