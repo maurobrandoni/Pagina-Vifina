@@ -20,6 +20,19 @@ const preguntas = [
   },
   {
     categoria: 'git',
+    texto: '¿Cuáles son las diferencias entre los comandos git merge y git rebase?',
+    opciones: [
+      'Merge crea un commit de fusion y preserva el historial, rebase reaplica los commits sobre la rama destino, dejando un historial lineal con nuevos hashes',
+      'merge reescribe el historial y rebase crea un commit de fusión.',
+      'rebase crea un commit de fusión y merge produce un historial lineal.',
+      'Dan el mismo historial; rebase solo funciona con ramas remotas y merge solo con locales.',
+    ],
+    explicacion: 'merge une dos ramas con un commit de fusión y conserva el historial tal como ocurrió (ramificado).
+
+rebase reaplica tus commits sobre la rama destino, dejando un historial lineal, pero reescribe los commits (nuevos hashes), por eso no se usa en ramas públicas.',
+  },
+  {
+    categoria: 'git',
     texto: '¿Qué hace `git fetch`?',
     opciones: [
       'Descarga los cambios de la nube a tu compu, sin mezclarlos todavía con tu código',
