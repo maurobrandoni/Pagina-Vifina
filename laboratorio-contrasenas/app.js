@@ -1,4 +1,4 @@
-const LIMITE_FUERZA_BRUTA_MS = 6000;
+const LIMITE_FUERZA_BRUTA_MS = 15000;
 const INTENTOS_POR_SEGUNDO_INTERNET = 10;
 const INTENTOS_POR_SEGUNDO_PLACA = 10_000_000_000;
 
@@ -8,12 +8,12 @@ const NUMEROS = '0123456789';
 const SIMBOLOS = ' !"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
 
 const diccionario = [
-  '123456', 'password', '12345678', 'qwerty', '123456789', '12345', '1234', '111111', '1234567', 'dragon',
+  '123456', 'password', '12345678', 'qwerty', 'emmita', '123456789', '12345', '1234', '111111', '1234567', 'dragon',
   '123123', 'baseball', 'abc123', 'football', 'monkey', 'letmein', 'shadow', 'master', '666666', 'qwertyuiop',
   '123321', 'mustang', '1234567890', 'michael', '654321', 'superman', '1qaz2wsx', '7777777', '121212', '000000',
   'qazwsx', '123qwe', 'killer', 'trustno1', 'jordan', 'jennifer', 'zxcvbnm', 'asdfgh', 'hunter', 'buster',
   'soccer', 'harley', 'batman', 'andrew', 'tigger', 'sunshine', 'iloveyou', 'charlie', 'robert', 'thomas',
-  'hockey', 'ranger', 'daniel', 'starwars', '112233', 'george', 'computer', 'michelle', 'jessica', 'pepper',
+  'hockey', 'ranger', 'daniel', 'starwars', '112233', 'george', 'computer', 'michelle', 'jessica', 'pepper', '1111', 'zxcvbnm,./', '55555', '1111111',
   'zxcvbn', '555555', '11111111', '131313', 'freedom', '777777', 'maggie', '159753', 'aaaaaa', 'ginger',
   'princess', 'joshua', 'cheese', 'amanda', 'summer', 'love', 'ashley', 'nicole', 'chelsea', 'biteme',
   'matthew', 'access', 'yankees', '987654321', 'dallas', 'austin', 'thunder', 'taylor', 'matrix', 'minecraft',
